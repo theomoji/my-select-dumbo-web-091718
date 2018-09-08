@@ -8,7 +8,7 @@ def my_select(collection)
     array << (yield collection[i] == true)
     i += 1
   end
-    array
+    puts array
   end
 end
 
