@@ -4,12 +4,12 @@ def my_select(collection)
   else
   array = []
   i = 0
- while i < collection.length
-   array << yield
-   i += 1
- end
- array
-end
+  while i < collection.length
+    array << yield
+    i += 1
+  end
+    array
+  end
 end
 
 
