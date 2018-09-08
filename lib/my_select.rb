@@ -10,6 +10,7 @@ def my_select(collection)
  end
  array
 end
+end
 
 
 # [1,2,3,4,5].select { |num|  num.even?  }   #=> [2, 4]
