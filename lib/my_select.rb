@@ -5,7 +5,7 @@ def my_select(collection)
   array = []
   i = 0
   while i < collection.length
-    if yield collection[i] == true
+    if yield collection[i].even?
       array << yield
     i += 1
   end
