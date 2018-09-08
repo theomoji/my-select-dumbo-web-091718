@@ -2,7 +2,8 @@ def my_select(collection)
   if collection == []
     puts "This block should not run!"
   else
-    puts yield 
+    puts "#{yield}"
+
   # array = []
   # i = 0
   # while i < collection.length
