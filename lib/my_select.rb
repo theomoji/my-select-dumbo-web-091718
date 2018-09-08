@@ -3,6 +3,7 @@ def my_select(collection)
     puts "This block should not run!"
   else
     puts "#{yield}"
+  end
 
   # array = []
   # i = 0
