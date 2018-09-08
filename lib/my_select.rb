@@ -1,5 +1,5 @@
 def my_select(collection)
-  if collection = []
+  if collection.nil?
     puts "This block should not run!"
   else
   array = []
