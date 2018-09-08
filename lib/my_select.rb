@@ -1,11 +1,14 @@
 def my_select(collection)
- #  array = []
- #  i = 0
- # while i < collection.length
- #   array << yield
- #   i += 1
- # end
- # array
+  if collection = []
+    puts "This block should not run!"
+  else
+  array = []
+  i = 0
+ while i < collection.length
+   array << yield
+   i += 1
+ end
+ array
 end
 
 
