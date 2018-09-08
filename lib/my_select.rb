@@ -1,5 +1,5 @@
 def my_select(collection)
-  if collection.empty?
+  if collection = [ ]
 
     puts "This block should not run!"
   else
