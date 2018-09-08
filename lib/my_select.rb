@@ -8,7 +8,6 @@ def my_select(collection)
     array << yield
     i += 1
   end
-  end
     array
   end
 end
